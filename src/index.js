@@ -1278,7 +1278,7 @@ function SDK(options = {}) {
      * @return {RequestPromise}
      */
     serverInfo() {
-      return this.request("get", "/", {}, {}, true);
+      return this.request("get", "/server/info", {}, {}, true);
     },
 
     /**
